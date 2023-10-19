@@ -1,6 +1,6 @@
 #!/bin/bash
   
-image="mikeah/superslicer-novnc"  
+image="dplab/makerCad-novnc"  
   
 # Set the timestamp
 timestamp=$(date +%Y.%m.%d.%H%M%S)  
