@@ -65,6 +65,7 @@ RUN mkdir -p /slic3r/slic3r-dist \
 COPY --from=easy-novnc-build /bin/easy-novnc /usr/local/bin/
 COPY menu.xml /etc/xdg/openbox/
 COPY supervisord.conf /etc/
+COPY SuperSlicer_config_bundle.ini /slic3r
 EXPOSE 8080
 
 VOLUME /configs/
